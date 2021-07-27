@@ -1,0 +1,9 @@
+active_admin_form_for(
+  :q,
+  html: { class: "custom-filters-form", autocomplete: :off }
+) do |f|
+  f.input :admin_user, as: :select,
+                    required: true,
+                    collection: AdminUser.all
+  f.submit "Filter"
+end
