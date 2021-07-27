@@ -2,9 +2,10 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.4'
+
 gem 'devise', '4.8.0'
 gem 'activeadmin', '2.9.0'
-gem "activeadmin_addons", "1.7.1"
+gem "activeadmin_addons", "1.8.2"
 
 gem 'arbre', '~> 1.2.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
